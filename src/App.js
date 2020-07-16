@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import {Row, Col, Image} from 'react-bootstrap'
-import ChadWithFish from './assets/images/ChadWithFish.jpeg'
 
 
 import styled from 'styled-components'
 import NavBar from './components/NavBar'
 import About from './components/About'
+import Gallery from './components/Gallery'
 
 const Styles = styled.div`
   font-family: 'Montserrat', sans-serif;
@@ -77,10 +77,9 @@ function App() {
   return (
     <Styles>
       <div className="app-container">
-      {/* <NavBar />
+      <NavBar />
       <Row className='content-row'>
         <Col>
-          <Row><img src={ChadWithFish} className='landing-img'/></Row> 
         <Row className='welcome-row'>
           <div className='name-brand'>Chad J. Hoffman</div>
           <div className='name-brand-text'>Photographer, Environmentalist, Creator</div>
@@ -89,8 +88,9 @@ function App() {
           <div className='landing-btm-text'>Scroll to see more</div>
         </Row>
         </Col>
-      </Row> */}
+      </Row>
       <About />
+      <Gallery />
     </div>
     </Styles>
   );
