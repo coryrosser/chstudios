@@ -35,6 +35,7 @@ const Styles = styled.div`
     .chad-img {
         width: 75%;
         margin-top: 10vh;
+        box-shadow: 0 8px 6px -6px black;
         border: rgb(0,0,0,0.3) solid 3px;
     }
     .two-pic-row {
@@ -48,6 +49,8 @@ const Styles = styled.div`
     .pic-column {
     }
     .about-content-row {
+        max-height: 50vh;
+        overflow-y: scroll;
         width: 80%;
         margin-left: auto;
         margin-right: auto;

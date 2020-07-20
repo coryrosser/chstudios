@@ -34,7 +34,11 @@ const NavBar = () => {
         <Col 
         xs={4}
         className='top-nav-col'>
-            <div className='branding-text'>Chad Hoffman Studios</div>
+            <div className='branding-text'
+            onClick={()=> {
+              window.scrollTo(0,100)
+            }}
+            >Chad Hoffman Studios</div>
         </Col>
         <Col 
         xs={3}
