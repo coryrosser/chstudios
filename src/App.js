@@ -77,7 +77,7 @@ function App() {
   return (
     <Styles>
       <div className="app-container">
-       {/* <NavBar /> 
+        <NavBar /> 
       <Row className='content-row'>
         <Col>
         <Row className='welcome-row'>
@@ -89,7 +89,7 @@ function App() {
         </Row>
         </Col>
       </Row>
-      <About /> */}
+      <About /> 
       <Gallery />
     </div>
     </Styles>
