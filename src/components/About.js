@@ -49,7 +49,7 @@ const Styles = styled.div`
     .pic-column {
     }
     .about-content-row {
-        max-height: 50vh;
+        max-height: 75vh;
         overflow-y: scroll;
         width: 80%;
         margin-left: auto;
